@@ -14,7 +14,7 @@ Project title: BRIGHTWORLD
 
 		                                    Lê Bá Duy	                Student1270665
 		                                    Lê Quốc Anh Khoa	        Student1271337 
-		                                    Hồ Giang Nam	            Student1271261
+		                                    Hồ Giang Nam	        Student1271261
 
 ============================
 
