@@ -22,7 +22,7 @@ eProject documentation at
 
 ============================
 
-eProject published at 
+eProject published at https://mrkhoaapple.github.io/brightworld.com/
 
 ============================
 
