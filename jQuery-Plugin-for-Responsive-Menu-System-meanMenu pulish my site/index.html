@@ -1,0 +1,179 @@
+<!doctype html>
+<html class="no-js" lang="en">
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+		<title>meanMenu: jQuery Responsive Menu Example</title>
+		<link href="https://www.jqueryscript.net/css/jquerysctipttop.css" rel="stylesheet" type="text/css">
+		<style>
+/* Basic CSS */
+html {
+  -webkit-text-size-adjust: none;
+  -webkit-font-smoothing: aliased;
+}
+body {
+	margin: 0;
+	padding: 0;
+	font: 16px/1.5 "Helvetica Neue", Arial, Helvetica, Geneva, sans-serif;
+}
+h1 {
+	font-size: 28px;
+	font-weight: 100;
+	text-align: center;
+}
+p { text-align: center; }
+h2 {
+font-size: 18px;
+font-weight: 100;
+text-align: center;
+margin-top: 40px;
+}
+header nav {
+	text-align: center;
+	background: #efefef;
+}
+header nav ul {
+	margin: 0;
+	padding: 1em;
+	list-style-type: none;
+}
+header nav ul li {
+	display: inline;
+	margin-left: 1em;
+}
+header nav ul li:first-child {
+	margin-left: 0;
+}
+header nav ul li ul {
+	display: none;
+}
+a {
+	color: #f77564;
+}
+a:hover {
+	color: #333;
+}
+a, a:hover {
+	-o-transition: color 0.25s ease-in;
+	-webkit-transition: color 0.25s ease-in;
+	-moz-transition: color 0.25s ease-in;
+	transition: color 0.25s ease-in;
+}
+section, article, header {
+	display: block;
+	float: left;
+	width: 100%;
+}
+article {
+	width: 96%;
+	padding: 3em 2%;
+}
+</style>
+		<link rel="stylesheet" href="meanmenu.css" media="all" />
+
+		<!--[if lt IE 9]>
+		<script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+<![endif]-->
+		<meta name="viewport" content="width=device-width, initial-scale=1,
+			minimum-scale=1">
+	</head>
+
+	<body>
+
+		<header>
+			<nav>
+				<ul>
+					<li><a href="#">Top Level Link</a>
+						<ul>
+							<li><a href="#">Second Level Link</a>
+								<ul>
+									<li><a href="#">Third Level Link</a></li>
+									<li><a href="#">Third Level Link</a></li>
+									<li><a href="#">Third Level Link</a>
+										<ul>
+											<li><a href="#">Fourth Level Link</a></li>
+											<li><a href="#">Fourth Level Link</a></li>
+											<li><a href="#">Fourth Level Link with extra long name so it wraps</a>
+												<ul>
+													<li><a href="#">Fifth Level Link</a></li>
+													<li><a href="#">Fifth Level Link</a></li>
+													<li><a href="#">Fifth Level Link</a></li>
+												</ul>
+											</li>
+										</ul>
+									</li>
+								</ul>
+							</li>
+							<li><a href="#">Second Level Link</a></li>
+							<li><a href="#">Second Level Link</a></li>
+						</ul>
+					</li>
+					<li><a href="#">Top Level Link</a></li>
+					<li><a href="#">Top Level Link</a></li>
+					<li><a href="#">Top Level Link</a></li>
+				</ul>
+			</nav>
+		</header>
+
+		<section>
+			<article>
+				<h1>meanMenu: jQuery Responsive Menu Example</h1>
+				<div id="carbon-block" align="center" style="margin:30px auto"></div>
+				<div align="center" style="margin:30px auto"><script type="text/javascript"><!--
+google_ad_client = "ca-pub-2783044520727903";
+/* jQuery_demo */
+google_ad_slot = "2780937993";
+google_ad_width = 728;
+google_ad_height = 90;
+//-->
+</script>
+<script type="text/javascript"
+src="https://pagead2.googlesyndication.com/pagead/show_ads.js">
+</script></div>
+				<p>meanMenu is a jQuery plugin that makes your navigation menus responsive and compatible with desktop, mobile, and tablet devices. </p>
+				<h2>Resize your browser to under 480 pixels</h2>
+			</article>
+		</section>
+
+		<script src="http://code.jquery.com/jquery-1.12.4.min.js"></script>
+		<script
+			src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.1/js/all.min.js"></script>
+		<script src="jquery.meanmenu.js"></script>
+		<script>
+	jQuery(document).ready(function () {
+	    jQuery('header nav').meanmenu({
+			meanExpand: '<i class="fas fa-angle-down"></i>',
+			meanContract: '<i class="fas fa-angle-up"></i>',
+		});
+	});
+</script>
+<script>
+try {
+  fetch(new Request("https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js", { method: 'HEAD', mode: 'no-cors' })).then(function(response) {
+    return true;
+  }).catch(function(e) {
+    var carbonScript = document.createElement("script");
+    carbonScript.src = "//cdn.carbonads.com/carbon.js?serve=CK7DKKQU&placement=wwwjqueryscriptnet";
+    carbonScript.id = "_carbonads_js";
+    document.getElementById("carbon-block").appendChild(carbonScript);
+  });
+} catch (error) {
+  console.log(error);
+}
+</script>
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-36251023-1']);
+  _gaq.push(['_setDomainName', 'jqueryscript.net']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+	</body>
+</html>
