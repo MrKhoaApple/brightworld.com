@@ -18,7 +18,7 @@ Project title: BRIGHTWORLD
 
 ============================
 
-eProject documentation at 
+eProject documentation at https://github.com/MrKhoaApple/brightworld.com/tree/main/document
 
 ============================
 
