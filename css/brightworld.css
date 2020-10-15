@@ -1,0 +1,314 @@
+
+/*popup ads start*/
+.float-ck {
+    position: fixed;
+    bottom: 0%;
+    z-index: 9000
+}
+
+* html .float-ck {
+    position: absolute;
+    bottom: auto;
+}
+
+#float_content_left {
+    border: 1px solid #01AEF0;
+}
+
+#hide_float_left {
+    text-align: left;
+    font-size: 11px;
+}
+
+#hide_float_left a {
+    background: #01AEF0;
+    padding: 2px 4px;
+    color: #FFF;
+}
+
+/*popup ads end*/
+* {
+    font-family: monospace;
+}
+
+h4 {
+    font-weight: bolder;
+}
+
+/* Add a gray background color and some padding to the footer */
+footer {
+    background-color: black;
+    padding: 25px;
+    margin: 0% -1% 0% -1%;
+}
+
+/*CSS for navbar*/
+.dropdown-menu>li>a:hover {
+    background-color: rgb(134, 211, 225);
+}
+
+.dropdown:hover .dropdown-menu {
+    display: block;
+}
+
+.dropdown-menu>li>a {
+    font-weight: bolder;
+    border-bottom: dashed;
+}
+
+b {
+    color: white;
+}
+
+#search {
+    width: 610px;
+}
+
+#myNavbar a:hover {
+    transform: scale(1.15);
+}
+
+/*style footer start*/
+a h5:hover {
+    transform: scale(1.15);
+}
+
+a h5 {
+    font-weight: bolder;
+}
+
+.fa_insta {
+    color: rgb(236, 89, 71)
+}
+
+.fa_gplus {
+    color: #d31818
+}
+
+.fa_fb {
+    color: #4288e4
+}
+
+footer div #social i:hover {
+    color: rgb(247, 244, 241);
+    text-decoration: none;
+    
+}
+
+.aboutus {
+    color: rgb(63, 45, 45);
+    font-weight: lighter;
+}
+
+.company {
+    color: rgb(112, 151, 177);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: x-large;
+}
+
+#map {
+    color: rgb(237, 241, 241);
+    font-size: x-large;
+}
+
+/*style footer end*/
+.carousel-inner img {
+    width: 100%;
+    /* Set width to 100% */
+    min-height: 200px;
+}
+
+/* Hide the carousel text when the screen is less than 600 pixels wide */
+@media (max-width: 600px) {
+    .carousel-caption {
+        display: none;
+    }
+}
+
+.well {
+    box-shadow: 10px 10px 10px grey;
+}
+
+/* Back-on-top button*/
+#ontop {
+    font-size: 30px;
+    border: none;
+    /*Hiding border*/
+    position: fixed;
+    /* Fixed/sticky position */
+    bottom: 0px;
+    /* Place the button at the bottom of the page */
+    right: 0px;
+    /* Place the button 5px from the right */
+    z-index: 99;
+    /* Make sure it does not overlap */
+    outline: none;
+    /* Remove outline */
+    background: rgba(0, 0, 0, 0);
+    /* Set a background color (crystal-clear)*/
+    color: rgb(134, 211, 225);
+}
+
+#ontop:hover {
+    transform: scale(1.3);
+}
+
+.row#partner img:hover {
+    transform: scale(1.1);
+}
+
+.btn-info {
+    background-color: rgb(134, 211, 225);
+    color: black;
+    font-weight: bolder;
+    opacity: 0.7;
+}
+
+/*img ads*/
+div .carousel-inner .item>img {
+    width: 100%;
+    height: 250px;
+}
+
+.widget {
+    padding: 20px 30px;
+    margin-bottom: 30px;
+    box-shadow: 0 0 4px rgba(0, 0, 0, 0.1);
+}
+
+.widget-title {
+    color: #666666;
+    font-weight: 700;
+    text-transform: uppercase;
+    position: relative;
+    padding-left: 10px;
+    margin-bottom: 20px;
+}
+
+.widget-checkbox {
+    margin: 4px 20px 0 0 !important;
+}
+
+.widget-search button {
+    background: transparent none repeat scroll 0 0;
+    color: #999;
+    font-size: 20px;
+    height: 100%;
+    position: absolute;
+    right: 0;
+    transition: all 0.3s ease 0s;
+    width: 50px;
+}
+
+.widget-search button:hover {
+    color: #ff7f00;
+}
+
+.panel-heading {
+    color: #fff !important;
+    background-color: rgb(134, 211, 225) !important;
+    padding: 5px;
+    border-bottom: 1px solid transparent;
+    border-top-left-radius: 0px;
+    border-top-right-radius: 0px;
+    border-bottom-left-radius: 0px;
+    border-bottom-right-radius: 0px;
+}
+
+.feedback {
+    margin-left: 3rem;
+}
+
+.feedback #areafb {
+    width: 80%;
+}
+
+.panel:hover {
+    transform: scale(1.1);
+}
+
+.panel-footer .btn:hover {
+    border: 1px solid #f4511e;
+    background-color: #fff !important;
+    color: #f4511e;
+}
+
+.modal-body {
+    display: inline;
+}
+
+.mod-pro-img>img {
+    width: 40%;
+    display: inline;
+    float: left;
+    padding-left: 3rem;
+}
+
+.mod-pro-cont {
+    float: left;
+    padding-left: 2rem;
+}
+
+.product-img>img {
+    width: 100px;
+    height: 100px;
+    display: inline;
+    float: left;
+}
+
+.product-cont {
+    float: left;
+    padding-left: 1rem;
+    font-size: 1rem;
+}
+
+body>.container-fluid {
+    margin-top: 3%;
+}
+.img-cmt{
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+}
+.glyp-search{
+    padding-top: 4px;
+    width: 28px;
+    height: 28px;
+    text-align: center;
+}
+.modal-h2brand{
+    width: 70%;
+    padding: -2rem;
+    margin: -0.5rem -1rem;
+}
+.modal-h2name{
+    padding: -2rem;
+    margin: 0rem -1rem;
+}
+
+.enter{
+    padding-bottom: 0.65%;
+    
+}
+
+.header{
+  background-color: black;
+    padding: 25px;
+}
+.brandParent a{
+    text-decoration: none;
+    font-weight: bolder;
+    color: black;
+}
+.brandParent {
+    list-style: none;
+}
+.brandParent a:hover{
+   transform: scale(1.05);
+}
+
+.brands {
+    font-weight: bolder;
+    font-size: larger;
+    color: rgb(134, 211, 225);
+}
